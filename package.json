@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gnuns/tumblr-backup#readme",
   "dependencies": {
+    "lodash": "^4.17.4",
     "tumblr.js": "^1.1.1"
   }
 }
