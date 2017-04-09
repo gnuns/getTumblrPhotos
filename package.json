@@ -1,0 +1,19 @@
+{
+  "name": "tumblr-backup",
+  "version": "1.0.0",
+  "description": "tumblr backup tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnuns/tumblr-backup.git"
+  },
+  "author": "gnuns",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnuns/tumblr-backup/issues"
+  },
+  "homepage": "https://github.com/gnuns/tumblr-backup#readme"
+}
