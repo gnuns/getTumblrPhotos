@@ -16,7 +16,7 @@ function getPhotoList(offset = 0) {
   })
 }
 
-function getLikedPhotoList(before) {
+function getLikedPhotoList(before = 0) {
   client.blogLikes('1or1', { before: before }, function (err, data) {
     if (!data.liked_posts.length) return;
 
@@ -30,5 +30,3 @@ function getLikedPhotoList(before) {
     getLikedPhotoList(last.liked_timestamp)
   })
 }
-
-getLikedPhotoList(0)
